@@ -1,0 +1,11 @@
+.input input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  width: calc(100% - 60px);
+  padding: 20px 30px 20px;
+  border-radius: 50px;
+  background: #f6f6f6;
+  border: none;
+  outline: none;
+}

@@ -1,13 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './Input.css'
 
-class Input extends Component {
-  render() {
-    return (
-      <div className='Input'>
-        <input type='text' />
-      </div>
-    );
-  }
-}
+const Input = (props) => (
+  <div className="input">
+    <input type="text" {...props} />
+  </div>
+)
 
 export default Input;

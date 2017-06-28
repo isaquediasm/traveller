@@ -1,5 +1,5 @@
-import Dropdown from './Dropdown/Dropdown'
+import SearchResult from './SearchResult/SearchResult'
 import Header from './Header/Header'
 import Input from './Input/Input'
-
-export { Dropdown, Header, Input }
+import OfferList from './OfferList/OfferList'
+export { SearchResult, Header, Input, OfferList }
