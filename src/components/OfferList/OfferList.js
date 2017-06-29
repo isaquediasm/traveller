@@ -4,7 +4,7 @@ import './OfferList.css'
 const OfferList = ({ offers }) => (
   <div className='offers' >
     {offers.map((item, idx) => 
-      <div className='offers__item' key={idx}>
+      <div key={item.id} className='offers__item'>
         <p>{item.title}</p>
       </div>
     )}
@@ -16,3 +16,4 @@ OfferList.propTypes = {
 }
 
 export default OfferList;
+  
